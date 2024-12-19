@@ -8,7 +8,7 @@
 # HoneyPot
 A modular, graphic-based honeypot to capture IP Adresses, usernames, passwords, and commands from various protocols (SSH &amp; HTTP supported right now). Written in Python.
 
-![honey-jar](https://github.com/user-attachments/assets/34e70b0a-e7c2-4635-b17e-bb92f0707a34)
+![honey-jar](https://github.com/JesseRubio/HoneyPot/blob/main/HoneyPot/assets/images/HoneyPy.jpg)
 
 
 A modular, graphic-based honeypot to capture IP Adresses, usernames, passwords, and commands from various protocols (SSH & HTTP supported right now). Written in Python.
