@@ -1,3 +1,10 @@
+[![Build](https://img.shields.io/badge/Supported_OS-OSX-orange.svg)]()
+![](https://img.shields.io/badge/platform-OSX%20%7C%20Linux%20%7C%20KaliLinux%20%7C%20ParrotOs-blue)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat)]()
+![](https://img.shields.io/badge/Python-3-blue)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/JesseRubio/HoneyPot/)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 # HoneyPot
 A modular, graphic-based honeypot to capture IP Adresses, usernames, passwords, and commands from various protocols (SSH &amp; HTTP supported right now). Written in Python.
 
@@ -9,10 +16,10 @@ A modular, graphic-based honeypot to capture IP Adresses, usernames, passwords, 
 # Install
 
 **1) Clone repository.**
-`git clone https://github.com/collinsmc23/ssh_honeypy.git`
+`git clone https://github.com/JesseRubio/HoneyPot.git`
 
 **2) Permissions.**
-Move into `ssh_honeypy` folder.
+Move into `HoneyPot` folder.
 
 Ensure `main.py` has proper permisions. (`chmod 755 main.py`)
 
@@ -100,7 +107,7 @@ Run `python3 web_app.py` on localhost. Default port for Python Dash is `8050`. `
 
 HONEPY leverages Python Dash to populate the bar charts, Dash Bootstrap Components for dark-theme and style of charts, and Pandas for data parsing.
 
-<img src="/assets/images/Dashboard.PNG" alt="Dashboard" width="600"/>
+<img src="HoneyPot/assets/images/Dashboard.PNG" alt="Dashboard" width="600"/>
 
 # VPS Hosting (General Tips)
 To host on VPS, follow the general tips.
@@ -131,10 +138,6 @@ Reload systemd with the new configuration added, `systemctl daemon-reload`.
 Enable the `honeypy.service` file with `systemctl enable honeypy.service`.  
 
 Start the `honepy.service` file with `systemctl start honepy.service`.
-
-# Video Overview
-
-[![YouTube Video](https://img.youtube.com/vi/tyKyLhcKgNo/0.jpg)](https://youtu.be/tyKyLhcKgNo)
 
 # Future Features
 
